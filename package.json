@@ -1,0 +1,28 @@
+{
+  "name": "node-idgen-benchmarks",
+  "version": "1.0.0",
+  "description": "Benchmark id generation libraries",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mcollina/node-idgen-benchmarks.git"
+  },
+  "author": "Matteo Collina <hello@matteocollina.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mcollina/node-idgen-benchmarks/issues"
+  },
+  "homepage": "https://github.com/mcollina/node-idgen-benchmarks#readme",
+  "dependencies": {
+    "benchmark": "^2.1.1",
+    "farmhash": "^1.2.0",
+    "hashids": "^1.1.0",
+    "highwayhash": "^1.0.0",
+    "nid": "^0.3.2",
+    "shortid": "^2.2.6",
+    "uuid": "^2.0.2"
+  }
+}
